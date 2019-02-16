@@ -2,14 +2,14 @@
 
 " Pathogen first
 
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " Basic Settings
 
 filetype plugin indent on
 syntax on
 set shell=/bin/zsh
-set guifont=Menlo:h14
+set guifont=Meslo:h14
 set nocompatible
 set modelines=0
 set tabstop=4
@@ -52,8 +52,8 @@ set colorcolumn=80
 
 " Aesthetics
 
-colorscheme solarized
-set background=light
+colorscheme palenight
+set background=dark
 
 " Mappings and shortcuts
 
