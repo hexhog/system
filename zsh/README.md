@@ -21,3 +21,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ## Enable word jumps and word deletion, aka natural text selection
 By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to "iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing → Boom! Head explodes"
+
+```
+cp -r .oh-my-zsh ~/
+cp -r .zshrc ~/
+```
