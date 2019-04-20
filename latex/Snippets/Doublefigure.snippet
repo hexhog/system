@@ -1,0 +1,17 @@
+% A snippet to insert a floating figure 
+ctrl key = g
+group = Floating
+insert at cursor =
+\begin{figure}[h!]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{images/}
+  \caption{<SELECTION>}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{images/}
+  \caption{<SELECTION>}
+\end{minipage}
+\end{figure}
