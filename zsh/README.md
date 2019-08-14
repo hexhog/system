@@ -1,3 +1,8 @@
+### ZSH
+```
+brew install zsh zsh-completions
+chsh -s /bin/zsh
+```
 ```
 sudo apt install zsh
 chsh -s /bin/zsh
