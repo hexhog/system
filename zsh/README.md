@@ -1,5 +1,6 @@
 ### ZSH
 ```
+sudo chown -R $(whoami) /usr/local/Cellar/
 brew install zsh zsh-completions
 chsh -s /bin/zsh
 ```
