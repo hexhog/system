@@ -101,3 +101,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias zshu='vim ~/.zshrc'
+alias zshr='source ~/.zshrc'
+
+yt2mp3() {
+    yt-dlp --no-check-certificate --download-archive downloaded.txt --no-post-overwrites -ciwx --audio-format mp3 --audio-quality 320k -i $1
+}
+
+ytc2mp3() {
+    yt-dlp --no-check-certificate --download-archive downloaded.txt --no-post-overwrites -ciwx --audio-format mp3 --audio-quality 320k -o "%(title)s.%(ext)s" $1
+}
+
+yt2video(){
+    yt-dlp --no-check-certificate -f 22 $1
+}
